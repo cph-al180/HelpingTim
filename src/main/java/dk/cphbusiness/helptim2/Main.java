@@ -29,21 +29,15 @@ public class Main {
         Assassin assassin = new Assassin();
         
         //Making Tim
-        Person tim = new Person();
-        tim.name = "Tim";
+        Person tim = new Person(420, 200, "Tim");
         tim.alive = true;
-        tim.money = 200;
-        tim.speed = 420;
         tim.weapon = sword;
         tim.cars = new ArrayList<>();
         tim.words = new ArrayList<>();
         
         //Making Andreas
-        Person andreas = new Person();
-        andreas.name = "Andreas";
+        Person andreas = new Person(360, 0, "Andreas");
         andreas.alive = true;
-        andreas.money = 0;
-        andreas.speed = 360;
         andreas.weapon = gun;
         
         //Some varibles

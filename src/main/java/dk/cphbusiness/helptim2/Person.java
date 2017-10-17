@@ -14,6 +14,17 @@ public class Person {
     public List<String> words;
     
     public boolean alive;
+
+    public Person(int speed, int money, String name) {
+        this.speed = speed;
+        this.money = money;
+        this.name = name;
+    }
+
+    public Person() {
+    }
+    
+    
     
     
     
